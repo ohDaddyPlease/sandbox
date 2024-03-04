@@ -14,3 +14,8 @@ Will be added:
 - [tarantool](Debian/tarantool.md)
 - [postgresql](Debian/postgresql.md)
 - [php](Debian/php.md)
+- [let's encrypt](Debian/lets_encrypt.md)
+
+
+## Practice
+[*тык-клац*](Practice/README.md)
