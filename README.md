@@ -15,6 +15,8 @@ Will be added:
 - [postgresql](Debian/postgresql.md)
 - [php](Debian/php.md)
 - [let's encrypt](Debian/lets_encrypt.md)
+- [grafana](Debian/grafana.md)
+- [prometheus](Debian/prometheus.md)
 
 
 ## Practice
