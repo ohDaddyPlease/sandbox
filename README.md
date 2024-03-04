@@ -1,5 +1,6 @@
 # sandbox
 
-1. [First setup](first_setup.md)
-2. [Docker](docker.md)
-3. [Gitlab](gitlab.md)
+## Debian
+1. [First setup](Debian/first_setup.md)
+2. [Docker](Debian/docker.md)
+3. [Gitlab](Debian/gitlab.md)
