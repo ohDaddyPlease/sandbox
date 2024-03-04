@@ -25,3 +25,5 @@ and `extenal_url 'https://gitlab.example.com'` to `external_url 'http://gitlab.m
 then
 `gitlab-ctl reconfigure`
 
+then
+`gitlab-rake "gitlab:password:reset[root]"`
