@@ -2,7 +2,7 @@
 su -
 ```
 ```bash
-groupadd docker && \
+groupadd docker || true && \
 usermod -aG docker,sudo serj && \
 reboot
 ```
