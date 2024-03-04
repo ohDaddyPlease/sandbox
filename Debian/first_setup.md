@@ -8,5 +8,5 @@ reboot
 ```
 ```bash
 sudo apt update && \
-sudo apt install vim
+sudo apt install -y vim
 ```
