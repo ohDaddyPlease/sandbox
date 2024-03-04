@@ -5,7 +5,7 @@ sudo apt-get update && \
 sudo apt-get install -y curl openssh-server ca-certificates perl && \
 sudo apt-get install -y postfix && \
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash && \
-sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install gitlab-ce=16.9.1-ce.0
+sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install -y gitlab-ce=16.9.1-ce.0
 ```
 ---
 
