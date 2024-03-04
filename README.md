@@ -17,6 +17,8 @@ Will be added:
 - [let's encrypt](Debian/lets_encrypt.md)
 - [grafana](Debian/grafana.md)
 - [prometheus](Debian/prometheus.md)
+- [graphite](Debian/graphite.md)
+- [victoriametrics](Debian/victoriametrics.md)
 
 
 ## Practice
