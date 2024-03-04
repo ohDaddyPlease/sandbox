@@ -5,3 +5,12 @@
 2. [Docker](Debian/docker.md)
 3. [Gitlab](Debian/gitlab.md)
 4. [Golang](Debian/golang.md)
+
+Will be added:
+- [envoy](Debian/envoy.md)
+- [kubernetes](Debian/kubernetes.md)
+- [nginx](Debian/nginx.md)
+- [puppet](Debian/puppet.md)
+- [tarantool](Debian/tarantool.md)
+- [postgresql](Debian/postgresql.md)
+- [php](Debian/php.md)
