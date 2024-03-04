@@ -20,7 +20,7 @@ then `sudo vim /etc/gitlab/gitlab.rb`
 
 and change `# letsencrypt['enable'] = nil` to `letsencrypt['enable'] = false`
 
-and `extenal_url https://gitlab.example.com` to `external_url http://gitlab.my.local`
+and `extenal_url 'https://gitlab.example.com'` to `external_url 'http://gitlab.my.local'`
 
 then
 `gitlab-ctl reconfigure`
