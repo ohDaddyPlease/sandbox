@@ -5,7 +5,7 @@ all: startup
 
 .PHONY: startup
 startup:
-  su - -c "groupadd docker || true && usermod -aG docker,sudo $(USER) && reboot"
+	su - -c "groupadd docker || true && usermod -aG docker,sudo $(USER) && reboot"
 
 .PHONY: help
 help:
