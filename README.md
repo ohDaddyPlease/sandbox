@@ -3,7 +3,7 @@ my little lovely sandbox - https://bit.ly/swe_sandbox
 # Debian
 [_image_ (arm64)](https://mirror.yandex.ru/debian-cd/current/arm64)
 
-VMware Fuse, 300 GB disk, 8 GB memory, 5 cores
+VMware Fuse, 300 GB disk, 8 GB memory
 
 ## bare-metal
 
@@ -31,6 +31,8 @@ Will be added:
 - [graphite](Debian/bare-metal/graphite.md)
 - [victoriametrics](Debian/bare-metal/victoriametrics.md)
 
+## containers
+_To be done_
 
 # Practice
 [*click-click*](Practice/README.md)
