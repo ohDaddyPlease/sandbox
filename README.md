@@ -17,6 +17,7 @@ Will be added:
 - [puppet](Debian/bare-metal/puppet.md)
 - [tarantool](Debian/bare-metal/tarantool.md)
 - [postgresql](Debian/bare-metal/postgresql.md)
+- [mysql](Debian/bare-metal/mysql.md)
 - [redis](Debian/bare-metal/redis.md)
 - [kafka](Debian/bare-metal/kafka.md)
 - [php](Debian/bare-metal/php.md)
