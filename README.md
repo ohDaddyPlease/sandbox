@@ -13,14 +13,14 @@ You can install some software with [make](https://github.com/ohDaddyPlease/sandb
 2. [Docker](Debian/DockerREADME.md)
 4. [Golang](Debian/bare-metal/GolangREADME.md)
 5. [Redis](Debian/bare-metal/Redis/README.md)
-6. [Puppet](Debian/bare-metal/Puppet/README.md) (not completed)
-7. [Gitlab](Debian/bare-metal/gitlab.md) (not completed)
+6. [Nginx](Debian/bare-metal/Nginx/README.md)
+7. [Puppet](Debian/bare-metal/Puppet/README.md) (not completed)
+8. [Gitlab](Debian/bare-metal/gitlab.md) (not completed)
 
 
 Will be added:
-- [envoy](Debian/bare-metal/envoy.md)
+- [envoy](Debian/bare-metal/envoy.md) (? no arm64 ?)
 - [kubernetes](Debian/kubernetes.md)
-- [nginx](Debian/bare-metal/nginx.md)
 - [tarantool](Debian/bare-metal/tarantool.md)
 - [postgresql](Debian/bare-metal/postgresql.md)
 - [mysql](Debian/bare-metal/mysql.md)
