@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
 .PHONY: all
-all: startup
+all: startup docker golang
 
 .PHONY: startup
 startup:
@@ -10,6 +10,10 @@ startup:
 .PHONY: docker
 docker:
 	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/Docker/install.sh)"
+
+.PHONY: golang
+golang:
+	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/Golang/install.sh)"
 
 .PHONY: help
 help:
