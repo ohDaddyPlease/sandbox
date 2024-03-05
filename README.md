@@ -1,7 +1,7 @@
 # sandbox
 
 ## Debian
-[_image_](https://mirror.yandex.ru/debian-cd/current/)
+[_image_ (arm64)](https://mirror.yandex.ru/debian-cd/current/arm64)
 
 VMware Fuse, 300 GB disk, 8 GB memory, 5 cores
 
