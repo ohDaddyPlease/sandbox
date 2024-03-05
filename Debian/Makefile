@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 
-.PHONY: startup # Do it first
+.PHONY: startup #Do it first
 startup:
 	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/Startup/install.sh)"
 
