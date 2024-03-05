@@ -13,7 +13,7 @@ docker:
 
 .PHONY: golang
 golang:
-	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/Golang/install.sh)"
+	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/bare-metal/Golang/install.sh)"
 
 .PHONY: help
 help:
