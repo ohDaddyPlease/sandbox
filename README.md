@@ -17,6 +17,8 @@ Will be added:
 - [puppet](Debian/puppet.md)
 - [tarantool](Debian/tarantool.md)
 - [postgresql](Debian/postgresql.md)
+- [redis](Debian/redis.md)
+- [kafka](Debian/kafka.md)
 - [php](Debian/php.md)
 - [let's encrypt](Debian/lets_encrypt.md)
 - [grafana](Debian/grafana.md)
