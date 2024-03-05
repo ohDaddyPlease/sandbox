@@ -10,7 +10,7 @@ VMware Fuse, 300 GB disk, 8 GB memory, 5 cores
 1. [First setup](Debian/first_setup.md)
 2. [Docker](Debian/Docker)
 3. [Gitlab](Debian/bare-metal/gitlab.md)
-4. [Golang](Debian/bare-metal/golang.md)
+4. [Golang](Debian/bare-metal/Golang)
 
 Will be added:
 - [envoy](Debian/bare-metal/envoy.md)
