@@ -1,9 +1,11 @@
-# sandbox
+my little lovely sandbox
 
-## Debian
+# Debian
 [_image_ (arm64)](https://mirror.yandex.ru/debian-cd/current/arm64)
 
 VMware Fuse, 300 GB disk, 8 GB memory, 5 cores
+
+## bare-metal
 
 1. [First setup](Debian/first_setup.md)
 2. [Docker](Debian/docker.md)
@@ -28,5 +30,5 @@ Will be added:
 - [victoriametrics](Debian/bare-metal/victoriametrics.md)
 
 
-## Practice
+# Practice
 [*click-click*](Practice/README.md)
