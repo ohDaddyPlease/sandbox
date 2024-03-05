@@ -11,14 +11,15 @@ You can install some software with [make](https://github.com/ohDaddyPlease/sandb
 
 1. [First setup](Debian/Startup/README.md)
 2. [Docker](Debian/DockerREADME.md)
-3. [Gitlab](Debian/bare-metal/gitlab.md)
 4. [Golang](Debian/bare-metal/GolangREADME.md)
+5. [puppet](Debian/bare-metal/Puppet/README.md)
+6. [Gitlab](Debian/bare-metal/gitlab.md) (not complited)
+
 
 Will be added:
 - [envoy](Debian/bare-metal/envoy.md)
 - [kubernetes](Debian/kubernetes.md)
 - [nginx](Debian/bare-metal/nginx.md)
-- [puppet](Debian/bare-metal/puppet.md)
 - [tarantool](Debian/bare-metal/tarantool.md)
 - [postgresql](Debian/bare-metal/postgresql.md)
 - [mysql](Debian/bare-metal/mysql.md)
