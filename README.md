@@ -1,4 +1,4 @@
-my little lovely sandbox
+my little lovely sandbox - https://bit.ly/swe_sandbox
 
 # Debian
 [_image_ (arm64)](https://mirror.yandex.ru/debian-cd/current/arm64)
