@@ -1,5 +1,5 @@
 ```bash
-su - -c "groupadd docker || true && usermod -aG docker,sudo serj && reboot"
+su - -c "groupadd docker || true && usermod -aG docker,sudo $USER && reboot"
 ```
 ```bash
 sudo apt update && \
