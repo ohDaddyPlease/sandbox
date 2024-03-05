@@ -14,7 +14,7 @@ You can install some software with [make](https://github.com/ohDaddyPlease/sandb
 4. [Golang](Debian/bare-metal/GolangREADME.md)
 5. [Redis](Debian/bare-metal/Redis/README.md)
 6. [Puppet](Debian/bare-metal/Puppet/README.md) (not completed)
-7. [Gitlab](Debian/bare-metal/gitlab.md) (not complited)
+7. [Gitlab](Debian/bare-metal/gitlab.md) (not completed)
 
 
 Will be added:
