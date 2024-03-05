@@ -1,11 +1,11 @@
 .DEFAULT_GOAL := help
 
-.PHONY: all
-all: startup docker golang
-
-.PHONY: startup
+.PHONY: startup # Do it first
 startup:
-	su - -c "groupadd docker || true && usermod -aG docker,sudo $(USER) && reboot"
+	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/Startup/install.sh)"
+
+.PHONY: all
+all: docker golang
 
 .PHONY: docker
 docker:
