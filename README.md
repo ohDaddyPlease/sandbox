@@ -9,10 +9,10 @@ VMware Fuse, 300 GB disk, 8 GB memory
 
 You can install some software with [make](https://github.com/ohDaddyPlease/sandbox/blob/main/Debian/README.md) (recommended) or manually:
 
-1. [First setup](Debian/Startup)
-2. [Docker](Debian/Docker)
+1. [First setup](Debian/Startup/README.md)
+2. [Docker](Debian/DockerREADME.md)
 3. [Gitlab](Debian/bare-metal/gitlab.md)
-4. [Golang](Debian/bare-metal/Golang)
+4. [Golang](Debian/bare-metal/GolangREADME.md)
 
 Will be added:
 - [envoy](Debian/bare-metal/envoy.md)
