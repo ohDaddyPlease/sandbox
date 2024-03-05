@@ -9,7 +9,7 @@ startup:
 	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/Startup/install.sh)"
 
 .PHONY: all
-all: docker golang
+all: docker golang redis
 
 .PHONY: docker
 docker:
@@ -18,3 +18,7 @@ docker:
 .PHONY: golang
 golang:
 	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/bare-metal/Golang/install.sh)"
+
+.PHONY: redis
+redis:
+	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/bare-metal/Redis/install.sh)"
