@@ -5,4 +5,5 @@ sudo rm -rf /usr/local/go && \
 sudo tar -C /usr/local -xzf $archive && \
 echo -e "\nexport PATH=\$PATH:/usr/local/go/bin" > $HOME/.bash_profile && \
 source ~/.bash_profile && \
+sudo rm -f $archive && \
 go version
