@@ -12,7 +12,7 @@ You can install some software with [make](https://github.com/ohDaddyPlease/sandb
 1. [First setup](Debian/Startup/README.md)
 2. [Docker](Debian/DockerREADME.md)
 4. [Golang](Debian/bare-metal/GolangREADME.md)
-5. [puppet](Debian/bare-metal/Puppet/README.md)
+5. [Puppet](Debian/bare-metal/Puppet/README.md)
 6. [Gitlab](Debian/bare-metal/gitlab.md) (not complited)
 
 
