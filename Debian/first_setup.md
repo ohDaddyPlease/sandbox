@@ -8,5 +8,5 @@ reboot
 ```
 ```bash
 sudo apt update && \
-sudo apt install -y vim git openssl gcc automake libtool nettools autoconf cmake jq tmux wget perl lua 
+sudo apt install -y vim git openssl gcc automake libtool net-tools autoconf cmake jq tmux wget perl lua5.4
 ```
