@@ -4,7 +4,7 @@
 help:
 	@perl -ne '/\.PHONY\:/ and s/\.PHONY\:// and print' $(MAKEFILE_LIST)
 
-.PHONY: startup #Do it first
+.PHONY: startup #Do it first. After this command system will be restarted
 startup:
 	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/Startup/install.sh)"
 
