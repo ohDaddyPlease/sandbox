@@ -11,11 +11,11 @@ You can install some software with [make](https://github.com/ohDaddyPlease/sandb
 
 1. [First setup](Debian/Startup/README.md)
 2. [Docker](Debian/bare-metal/Docker/README.md)
-4. [Golang](Debian/bare-metal/GolangREADME.md)
+4. [Golang](Debian/bare-metal/Golang/README.md)
 5. [Redis](Debian/bare-metal/Redis/README.md)
 6. [Nginx](Debian/bare-metal/Nginx/README.md)
 7. [Puppet](Debian/bare-metal/Puppet/README.md) (not completed)
-8. [Gitlab](Debian/bare-metal/gitlab.md) (not completed)
+8. [Gitlab](Debian/bare-metal/Gitlab/README.md) (not completed)
 
 
 Will be added:
