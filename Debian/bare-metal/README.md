@@ -16,6 +16,6 @@ source $HOME/.bashrc
 ```
 
 ```bash
-sandbox-update-makefile && \
-make help
+sandbox-update-bm && \
+sandbox-bm help
 ```
