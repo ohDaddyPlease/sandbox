@@ -1,4 +1,5 @@
 ```bash
+rm -rf sandbox_config .sandbox
 sandbox_config_path=$HOME/.sandbox_config
 echo 'sandbox_path=$HOME/.sandbox' >> $sandbox_config_path && \
 echo 'bare_metal_path=$HOME/$sandbox_path/bare-metal' >> $sandbox_config_path && \
