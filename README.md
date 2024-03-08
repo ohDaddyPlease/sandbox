@@ -15,13 +15,13 @@ You can install some software with [make](Debian/bare-metal/README.md) (recommen
 2. [Golang](Debian/bare-metal/Golang/README.md)
 3. [Redis](Debian/bare-metal/Redis/README.md)
 4. [Nginx](Debian/bare-metal/Nginx/README.md)
-5. [Puppet](Debian/bare-metal/Puppet/README.md) (not completed)
-6. [Gitlab](Debian/bare-metal/Gitlab/README.md) (not completed)
+5. [Tarantool](Debian/bare-metal/Tarantool/README.md)
+6. [Puppet](Debian/bare-metal/Puppet/README.md) (not completed)
+7. [Gitlab](Debian/bare-metal/Gitlab/README.md) (not completed)
 
 
 Will be added:
 - [Kubernetes](Debian/kubernetes.md)
-- [Tarantool](Debian/bare-metal/tarantool.md)
 - [PostgreSQL](Debian/bare-metal/postgresql.md)
 - [MySQL](Debian/bare-metal/mysql.md)
 - [Kafka](Debian/bare-metal/kafka.md)
