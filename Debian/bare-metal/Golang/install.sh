@@ -4,5 +4,6 @@ wget https://go.dev/dl/$archive && \
 sudo rm -rf /usr/local/go && \
 sudo tar -C /usr/local -xzf $archive && \
 echo -e "export PATH=\$PATH:/usr/local/go/bin" >> $HOME/.bashrc && \
-sudo rm -f $archive && \
+sudo rm -f $archive
+
 source $HOME/.bashrc
