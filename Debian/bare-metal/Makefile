@@ -1,5 +1,3 @@
-delimiter=echo "$(1)"
-
 .DEFAULT_GOAL := help
 
 .PHONY: help #This list
@@ -37,7 +35,3 @@ tarantool:
 _finish:
 	sudo apt-get autoremove
 	sudo apt-get clean
-
-.PHONY: tst
-tst:
-	$(call delimiter, 123)
