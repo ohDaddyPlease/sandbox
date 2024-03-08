@@ -3,7 +3,7 @@ sudo rm -f $archive && \
 wget https://go.dev/dl/$archive && \
 sudo rm -rf /usr/local/go && \
 sudo tar -C /usr/local -xzf $archive && \
-echo -e "\nexport PATH=\$PATH:/usr/local/go/bin" > $HOME/.bashrc && \
+echo -e "export PATH=\$PATH:/usr/local/go/bin" >> $HOME/.bashrc && \
 sudo rm -f $archive && \
 source $HOME/.bashrc && \
 go version
