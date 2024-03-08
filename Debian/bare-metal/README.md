@@ -5,5 +5,6 @@ source $HOME/.bashrc
 ```
 
 ```bash
+sandbox-update-makefile && \
 make help
 ```
