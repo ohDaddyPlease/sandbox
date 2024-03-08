@@ -9,7 +9,7 @@ prepare:
 	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/prepare.sh)"
 
 .PHONY: all
-all: docker golang redis nginx tarantool
+all: docker golang redis nginx tarantool _finish
 
 .PHONY: docker
 docker:
@@ -30,3 +30,8 @@ nginx:
 .PHONY: tarantool
 nginx:
 	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/bare-metal/Tarantool/install.sh)"
+
+.PHONY: _finish
+_finish:
+	sudo apt-get autoremove
+	sudo apt-get clean
