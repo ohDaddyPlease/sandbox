@@ -5,9 +5,11 @@ my little lovely sandbox - https://bit.ly/swe_sandbox
 
 VMware Fuse, 300 GB disk, 8 GB memory
 
+Please, [prepare your system](Debian/README.md) before start.
+
 ## bare-metal
 
-You can install some software with [make](https://github.com/ohDaddyPlease/sandbox/blob/main/Debian/README.md) (recommended) or manually:
+You can install some software with [make](Debian/bare-metal/README.md) (recommended) or manually:
 
 1. [First setup](Debian/Startup/README.md)
 2. [Docker](Debian/bare-metal/Docker/README.md)
