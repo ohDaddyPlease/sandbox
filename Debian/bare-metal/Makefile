@@ -9,7 +9,7 @@ prepare:
 	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/prepare.sh)"
 
 .PHONY: all
-all: docker golang redis nginx
+all: docker golang redis nginx tarantool
 
 .PHONY: docker
 docker:
@@ -26,3 +26,7 @@ redis:
 .PHONY: nginx
 nginx:
 	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/bare-metal/Nginx/install.sh)"
+
+.PHONY: tarantool
+nginx:
+	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/bare-metal/Tarantool/install.sh)"
