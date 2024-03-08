@@ -19,7 +19,6 @@ You can install some software with [make](https://github.com/ohDaddyPlease/sandb
 
 
 Will be added:
-- [envoy](Debian/bare-metal/envoy.md) (? no arm64 ?)
 - [kubernetes](Debian/kubernetes.md)
 - [tarantool](Debian/bare-metal/tarantool.md)
 - [postgresql](Debian/bare-metal/postgresql.md)
@@ -33,7 +32,7 @@ Will be added:
 - [victoriametrics](Debian/bare-metal/victoriametrics.md)
 
 ## containers
-_To be done_
+- [envoy](Debian/containers/envoy.md)
 
 # Practice
 [*click-click*](Practice/README.md)
