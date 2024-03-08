@@ -10,6 +10,7 @@ prepare:
 
 .PHONY: all
 all: docker golang redis nginx
+	sudo reboot
 
 .PHONY: docker
 docker:
