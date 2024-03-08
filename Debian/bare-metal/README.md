@@ -1,7 +1,7 @@
 ```bash
 mkdir -p bare-metal && \
-wget https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/Makefile -o bare-metal/Makefile && \
-cd bare-metal
+cd bare-metal && \
+wget https://raw.githubusercontent.com/ohDaddyPlease/sandbox/main/Debian/Makefile
 ```
 
 ```bash
