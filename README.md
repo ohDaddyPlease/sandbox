@@ -31,6 +31,7 @@ Will be added:
 - [Prometheus](Debian/bare-metal/prometheus.md)
 - [Graphite](Debian/bare-metal/graphite.md)
 - [VictoriaMetrics](Debian/bare-metal/victoriametrics.md)
+- [Vault](Debian/bare-metal/vault.md)
 
 ## containers
 1. [Envoy](Debian/containers/envoy.md)
